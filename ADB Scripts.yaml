@@ -1,0 +1,74 @@
+#  My adb commands are from the Shield intents github:
+#  https://gist.github.com/mcfrojd/9e6875e1db5c089b1e3ddeb7dba0f304
+
+
+
+
+
+######################################################### ADB Commands
+
+
+
+shield_up_adb:
+  alias: Direction Up ADB
+  sequence:
+  - service: androidtv.adb_command
+    entity_id: XXXXXXXXXXX  #  Add Media Player Entity
+    data:
+      command: "UP"  
+shield_down_adb:
+  alias: Direction Down ADB
+  sequence:
+  - service: androidtv.adb_command
+    entity_id: XXXXXXXXXXX  #  Add Media Player Entity
+    data:
+      command: "DOWN"
+shield_left_adb:
+  alias: Direction Left ADB
+  sequence:
+  - service: androidtv.adb_command
+    entity_id: XXXXXXXXXXX  #  Add Media Player Entity
+    data:
+      command: "LEFT"
+shield_right_adb:
+  alias: Direction Right ADB
+  sequence:
+  - service: androidtv.adb_command
+    entity_id: XXXXXXXXXXX  #  Add Media Player Entity
+    data:
+      command: "RIGHT"
+shield_home_adb:
+  alias: Shield Home ADB
+  sequence:
+  - service: androidtv.adb_command
+    entity_id: XXXXXXXXXXX  #  Add Media Player Entity
+    data:
+      command: "HOME"
+shield_ok_adb:
+  alias: Shield OK ADB
+  sequence:
+  - service: androidtv.adb_command
+    entity_id: XXXXXXXXXXX  #  Add Media Player Entity
+    data:
+      command: "ENTER"
+shield_back_adb:
+  alias: Shield Back ADB
+  sequence:
+  - service: androidtv.adb_command
+    entity_id: XXXXXXXXXXX  #  Add Media Player Entity
+    data:
+      command: Back
+shield_play_adb:
+  alias: Shield Play ADB
+  sequence:
+  - service: androidtv.adb_command
+    entity_id: XXXXXXXXXXX  #  Add Media Player Entity
+    data:
+      command: Play
+shield_pause_adb:
+  alias: Play / Pause ADB
+  sequence:
+  - service: androidtv.adb_command
+    entity_id: XXXXXXXXXXX  #  Add Media Player Entity
+    data:
+      command: "input keyevent 126"

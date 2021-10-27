@@ -1,0 +1,60 @@
+- type: horizontal-stack
+cards:         
+  - type: glance
+    columns: 3
+    entities:      
+      - entity: script.volume_up  # Script for Volume Up Button
+        tap_action: 
+          action: toggle
+        icon: mdi:plus
+        show_state: false
+        name: Vol +
+      - entity: script.shield_up_adb # Script for Up Button
+        name: Up
+        tap_action: 
+          action: toggle
+        icon: mdi:arrow-up-thick
+        show_state: false
+      - entity: script.shield_home_adb # Script for Home Button
+        icon: mdi:home                    
+        tap_action: 
+          action: toggle
+        show_state: false
+        name: Home
+      - entity: script.shield_left_adb # Script for Left Button
+        tap_action: 
+          action: toggle
+        icon: mdi:arrow-left-thick
+        show_state: false
+        name: Left
+      - entity: script.shield_ok_adb # Script for Ok Button
+        name: OK
+        tap_action: 
+          action: toggle
+        icon: mdi:circle-outline
+        show_state: false
+      - entity: script.shield_right_adb # Script for Right Button
+        tap_action: 
+          action: toggle
+        icon: mdi:arrow-right-thick
+        name: Right
+      - entity: script.volume_down_adb # Script for Volume Down Button
+        tap_action: 
+          action: toggle
+        icon: mdi:minus
+        show_state: false
+        name: Vol -
+      - entity: script.shield_down_adb # Script for Down Button
+        tap_action: 
+          action: toggle
+        icon: mdi:arrow-down-thick
+        show_state: false
+        name: Down
+      - entity: script.shield_back_adb # Script for Back Button
+        tap_action: 
+          action: toggle
+        icon: mdi:keyboard-return
+        show_state: false
+        name: Back
+    show_state: false
+    show_name: false 
