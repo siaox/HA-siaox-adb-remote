@@ -21,6 +21,9 @@ It also works with (probably anything you could yaml properly) logitech harmony 
 1. Create script for buttons  
 2. Add yaml from Remote Glance Card.yaml
 
+
+
+**Notes**
 I'm slightly drunk will update this eventually.
 
 I'm pretty sure we can make this faster - please let me know how.
