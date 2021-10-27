@@ -5,7 +5,7 @@
 
 **Description**
 
-This is a glance card for a remote used for home assistant. Basically used the glace card to run scripts to activate ADB commands. 
+This is a glance card for a remote on home assistant. Basically used the glace card to run scripts to activate ADB commands. 
 It also works with (probably anything you could yaml properly) logitech harmony commands or broadlink commands.
 
 
