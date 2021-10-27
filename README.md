@@ -13,7 +13,7 @@ It also works with (probably anything you could yaml properly) logitech harmony 
 **ADB Requirements**
 1. Have ADB Commands setup to your Home Assistant accessible Android Device using [ADB Integration](https://www.home-assistant.io/integrations/androidtv/)
 2. Create Scripts for ADB commands [More Info](https://www.home-assistant.io/integrations/script/)
-3. Add the lovelace from Remote Glance Card.yaml
+
 
 
 
@@ -21,7 +21,7 @@ It also works with (probably anything you could yaml properly) logitech harmony 
 
 1. Create script for buttons  ( see  ADB Scripts.yaml for more info )
 2. Add yaml from Remote Glance Card.yaml
-
+3. Add the lovelace from Remote Glance Card.yaml
 
 
 **Notes:**
