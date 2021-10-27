@@ -1,4 +1,4 @@
-**Home Asssistant Remote**
+**Home Asssistant Remote - Glance Card**
 
 ![Remote](https://i.ibb.co/8rYm6fS/Screenshot-2021-10-27-at-21-10-18-Overview-Home-Assistant.png)
 
@@ -22,3 +22,7 @@ It also works with (probably anything you could yaml properly) logitech harmony 
 2. Add yaml from Remote Glance Card.yaml
 
 I'm slightly drunk will update this eventually.
+
+I'm pretty sure we can make this faster - please let me know how.
+
+Thank you HA.
