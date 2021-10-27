@@ -15,60 +15,74 @@ shield_up_adb:
   - service: androidtv.adb_command
     entity_id: XXXXXXXXXXX  #  Add Media Player Entity
     data:
-      command: "UP"  
+      command: "XXXXXXXXXXX"  #  UP ADB command 
 shield_down_adb:
   alias: Direction Down ADB
   sequence:
   - service: androidtv.adb_command
     entity_id: XXXXXXXXXXX  #  Add Media Player Entity
     data:
-      command: "DOWN"
+      command: "XXXXXXXXXXX"  #  Down ADB command
 shield_left_adb:
   alias: Direction Left ADB
   sequence:
   - service: androidtv.adb_command
     entity_id: XXXXXXXXXXX  #  Add Media Player Entity
     data:
-      command: "LEFT"
+      command: "XXXXXXXXXXX"  #  Left ADB command
 shield_right_adb:
   alias: Direction Right ADB
   sequence:
   - service: androidtv.adb_command
     entity_id: XXXXXXXXXXX  #  Add Media Player Entity
     data:
-      command: "RIGHT"
+      command: "XXXXXXXXXXX"  #  Right ADB command
 shield_home_adb:
   alias: Shield Home ADB
   sequence:
   - service: androidtv.adb_command
     entity_id: XXXXXXXXXXX  #  Add Media Player Entity
     data:
-      command: "HOME"
+      command: "XXXXXXXXXXX" # Home ADB command
 shield_ok_adb:
   alias: Shield OK ADB
   sequence:
   - service: androidtv.adb_command
     entity_id: XXXXXXXXXXX  #  Add Media Player Entity
     data:
-      command: "ENTER"
+      command: "XXXXXXXXXXX" #  OK ADB command
 shield_back_adb:
   alias: Shield Back ADB
   sequence:
   - service: androidtv.adb_command
     entity_id: XXXXXXXXXXX  #  Add Media Player Entity
     data:
-      command: Back
+      command: "XXXXXXXXXXX" #  Back ADB command
 shield_play_adb:
   alias: Shield Play ADB
   sequence:
   - service: androidtv.adb_command
     entity_id: XXXXXXXXXXX  #  Add Media Player Entity
     data:
-      command: Play
+      command: "XXXXXXXXXXX" #  Play ADB command
 shield_pause_adb:
   alias: Play / Pause ADB
   sequence:
   - service: androidtv.adb_command
     entity_id: XXXXXXXXXXX  #  Add Media Player Entity
     data:
-      command: "input keyevent 126"
+      command: "XXXXXXXXXXX" #  Pause ADB command
+shield_volume_up:
+  alias: Volume Up
+  sequence:
+  - service: androidtv.adb_command
+    entity_id: XXXXXXXXXXX  #  Add Media Player Entity
+    data:
+      command: "XXXXXXXXXXX" # Volume Up ADB command
+shield_volume_down:
+  alias: Volume Down ADB
+  sequence:
+  - service: androidtv.adb_command
+    entity_id: XXXXXXXXXXX  #  Add Media Player Entity
+    data:
+      command: "XXXXXXXXXXX" # Volume Down ADB command
