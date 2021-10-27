@@ -1,3 +1,6 @@
+![Remote](https://ibb.co/m67CPQ2)
+
+
 **Description**
 
 This is a glance card for a remote used for home assistant. Basically used the glace card to run scripts to activate ADB commands. 
