@@ -27,7 +27,7 @@ It also works with (probably anything you could yaml properly) logitech harmony 
 **Notes:**
 
   My adb commands are from the Shield intents github:
-  https://gist.github.com/mcfrojd/9e6875e1db5c089b1e3ddeb7dba0f304
+https://gist.github.com/mcfrojd/9e6875e1db5c089b1e3ddeb7dba0f304
 
 
 I'm slightly drunk will update this eventually.
