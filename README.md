@@ -20,8 +20,7 @@ It also works with (probably anything you could yaml properly) logitech harmony 
 **Installation**
 
 1. Create script for buttons  ( see  ADB Scripts.yaml for more info )
-2. Add yaml from Remote Glance Card.yaml
-3. Add the lovelace from ADB Remote Glance Card.yaml
+2. Add the lovelace from ADB Remote Glance Card.yaml
 
 
 **Notes:**
