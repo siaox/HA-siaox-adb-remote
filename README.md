@@ -1,4 +1,4 @@
-![Remote](https://i.ibb.co/Gcjvrg8/Screenshot-2021-10-27-at-21-05-34-Overview-Home-Assistant.png)
+![Remote](https://i.ibb.co/8rYm6fS/Screenshot-2021-10-27-at-21-10-18-Overview-Home-Assistant.png)
 
 
 **Description**
