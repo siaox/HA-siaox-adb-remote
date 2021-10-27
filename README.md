@@ -10,7 +10,7 @@ It also works with (probably anything you could yaml properly) logitech harmony 
 
 
 
-**eADB Requirements**
+**ADB Requirements**
 1. Have ADB Commands access able to your Android Device using [ADB](https://www.home-assistant.io/integrations/androidtv/)
 2. Create Scripts for ADB commands [More Info](https://www.home-assistant.io/integrations/script/)
 
