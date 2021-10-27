@@ -11,7 +11,7 @@ It also works with (probably anything you could yaml properly) logitech harmony 
 
 
 **ADB Requirements**
-1. Have ADB Commands access able to your Android Device using [ADB](https://www.home-assistant.io/integrations/androidtv/)
+1. Have ADB Commands setup to your Home Assistant accessible Android Device using [ADB Integration](https://www.home-assistant.io/integrations/androidtv/)
 2. Create Scripts for ADB commands [More Info](https://www.home-assistant.io/integrations/script/)
 
 
@@ -26,3 +26,5 @@ I'm slightly drunk will update this eventually.
 I'm pretty sure we can make this faster - please let me know how.
 
 Thank you HA.
+
+
